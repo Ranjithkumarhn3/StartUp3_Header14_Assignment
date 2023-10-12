@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    font-family: "DM Sans", sans-serif;
+}
+body {
+    background: #2F1893;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Navbar{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 970px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+}
+.sections {
+    display: flex;
+    justify-content: center;
+}
+.heading {
+    color: White;
+    font-size: 24px;
+}
+.heading{
+    margin: 20px;
+    padding: 10px;
+}
+p {
+    padding: 10px;
+    margin: 20px;
+    font-size: 18px;
+    color: white;
+}
+.clicked {
+    color: grey;
+}
+.Buttons{
+    margin: 25px;
+}
+.btn{
+    background: #E93A7D;
+    border-style: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 100px;
+    color: white;
+}
+.subject{
+    display: flex;
+    flex-direction: row;
+}
+.content_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 424px;
+    height: 496px;
+    top: 219px;
+    left: 212px; 
+}
+.content {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+
+.desc {
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    margin: 0; 
+    margin-top: 20px;
+}
+.card_buttons{
+    display: flex;
+    align-self: flex-start;
+}
+.learnmore_btn {
+    background: #E93A7D;
+    border-style: none;
+    width: 157px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 100px;
+    color: white;
+}
+.login_page {
+    width: 470px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.signup_heading{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 42px;
+    text-align: center;
+    color: #1E0E62;
+}
+input{
+    width: 330px;
+    height: 30px;
+    border-radius: 100px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 15px;
+    text-align: start;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.forms{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.assets{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.images{
+    margin-top:9px;
+    width: 20px;
+    height: 20px;
+}
+.terms{
+    margin-top: 0%;
+   color: #15143966;
+   font-size: 16px;
+}
+.signin{
+    width: 330px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #482BE7;
+    color: white;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.linebreak{
+    margin-top: 20px;
+}
+.Twitter{
+    width: 330px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #1DA1F2;
+    color: white;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.Account{
+   color: #15143966;
+   font-size: 16px;
+}
+
+span{
+    color: #25DAC5
+}
